@@ -338,32 +338,32 @@ ul li a{text-decoration: none;
 #electro, #techno, #deep, #plug, #Progressive 
 {display: block; }
 
-.photo1 {
-  animation: photo1Anim 2.5s ease-out infinite;
+.photo1,
+.photo2 {
+  animation: tiltFloat 2.5s ease-in-out infinite;
   transform-origin: center center;
 }
 
-@keyframes photo1Anim {
+@keyframes tiltFloat {
   0% {
-    transform: translateX(0);
+    transform: rotate(0deg) translateY(0);
   }
   25% {
-    transform: translateX(-10px);
+    transform: rotate(-3deg) translateY(-5px);
   }
   50% {
-    transform: translateX(50px);
+    transform: rotate(3deg) translateY(5px);
   }
   75% {
-    transform: translateX(-20px);
+    transform: rotate(-2deg) translateY(-4px);
   }
   100% {
-    transform: translateX(0);
+    transform: rotate(0deg) translateY(0);
   }
-}
-		</style>
+}	</style>
 	</head>
 
-	<body style="font-family:'agahnsangsoo2012'; sans-serif;">
+	<body style="font-family:'agahnsangsoo2012', sans-serif;">
             <header class="header">
 
                 <div class="logo">
@@ -396,14 +396,18 @@ ul li a{text-decoration: none;
              ">
             	
 				<h1 class="bubble_text">
-    				<span class="highlight">하우스</span>(HOUSE)!<br>집도 아니고 뭔데?</h1>
+    				<span class="highlight" 
+                    style="font-family:'agahnsangsoo2012'; sans-serif;
+                    font-size: 250px; 
+                    font-weight: 700;
+                    line-height: 0.8;">하우스(HOUSE)!<br>집도 아니고 뭔데?</h1>
     			<h2 class="mt">-하우스 장르 알아보기-</h2>
     		</div>
         </div>
     	</section>
 
 <section>
-		<div class="page-wrap"id="box1" style="margin:50px 0px 0px 10px;">
+		<div class="page-wrap"id="box1" style="margin:50px 0px 0px 0px;">
             <h1 class="Chapter"><span class="chapter-color">Chapter 1.</span>디스코가 낳은 하우스</h1>
 				<h2 class="t1" style="
                     font-size: 85px;
@@ -416,35 +420,83 @@ ul li a{text-decoration: none;
     				style="width:55px;height:auto;
                     vertical-align: -15px;">
     			</h2>
-    				<p>
+    				<p style="width:800px; 
+                           height:auto;
+                           margin: 10px 0px 200px 10px;">
 					하우스는 바로 음악 장르를 말하는데요<br>
 					이 하우스라는 장르에 대해 얘기를 하려면 <strong style="color:#FF1E53">디스코</strong>에 대해 먼저 이야기해야해요!<br>
 					</p>
 					<p>
-					디스코는 처음에 뉴욕의 언더그라운드 파티 공간 로프트(The Loft)에서 시작된 음악이었어요.<br>언더그라운드에서만 들리던 이 디스코는<br>
-                    영화 <토요일 밤의 열기>가 큰 인기를 얻으며<br> 
-                    대중들에게도 디스코가 퍼져나갔고 디스코는 전 세계적인 유행이 되었어요.<br>
+					<strong style="color:#FF1E53">디스코</strong>는 처음에 뉴욕의 언더그라운드 파티 공간,<br> 로프트(The Loft)에서 시작된 음악이었어요.<br>언더그라운드에서만 들리던 이 디스코는<br>
+                    영화 <토요일 밤의 열기>가 큰 인기를 얻으면서<br> 
+                    대중들에게도 디스코가 퍼져나갔고 디스코는 전 세계적인 유행이 되었어요<br>
                     <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMndpZzR1Ym1vOXFwbDd5MzU1emM5cmYzd296dWxnN2ZvZjFqMWgwNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41Yh18f5TbiWHE0o/giphy.gif" 
-                           style="width:500px; height:auto;"margin>
-                    비지스가 참여한 <토요일 밤의 열기>의 사운드 트랙들은 빌보드 차트 1위를 하고,<br>
+                           style="width:800px; 
+                           height:auto;
+                           margin: 250px 30px 250px 800px;
+                        box-shadow:
+              0 0 10px rgba(255,255,255,0.7),
+              0 0 25px rgba(0,110,255,0.8),
+              0 0 45px rgba(0,110,255,0.6);">"><br></p>
+                    <p>비지스가 참여한 <토요일 밤의 열기>의 사운드 트랙들은 빌보드 차트 1위를 하고,<br>
                     당시 OST 역대 판매 최고 기록인 3,000만장이 넘는 엄청난 판매량을 기록할 정도였다고 해요.</p>
-                    <p>이처럼 디스코의 인기가 커지자<br>
+
+                    <div class="page-wrap"
+                    style= "background-image: url('paper.png');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    margin: 20px 0px 40px;">
+            <h1 style="
+                display:inline-block;
+                color: #FF7300; 
+                font-weight: 700;
+                font-size: 110px;
+                background-color: #050505;
+                margin: 50px;
+                padding: 3px 40px;">
+                  디스코 폭파의 밤</h1>
+                  <h2 style="margin:0px 0px 30px 60px;
+                font-size: 85px;
+                line-height: 0.8;color:black;
+                ">
+                  Disco sucks </h2>
+
+                    <p style="text-align:
+                left; margin:300px 0px 0px 60px ;
+                color:#2A2A2A;
+                ;line-height: 1.0;">
+                    이처럼 디스코의 인기가 커지자<br>
                     시카고의 한 락 라디오 방송국은
-                    주력 장르를 디스코로 바꾸면서<br>
-                    락 프로그램의 DJ였던 스티브 달(Steve Dahl)을 해고하게돼요</p>
-                    <p>이 전부터 디스코에 반감을 갖고 있던 그는 MLB 메이저리그 팀인 시카고 화이트삭스와 함께<br>
+                    주력 장르를 디스코로 바꾸기 위해<br>
+                    기존 락 프로그램의 DJ였던 <strong style="color:#FF7300;">스티브 달(Steve Robert Dahl)</strong>을 해고하게돼요</p>
+                    <div style="position: relative;">
+                    <img src="steven.png" class="photo2"style=" 
+                    width: 800px; 
+                    height: auto;
+                    position: absolute;
+                    right:60px;
+                    top:-400px;
+                    display: block;
+                    margin-left: auto;">
+                </div>
+                    <p style="clear:right;
+    transform: translateY(-400px);
+    margin-left: 60px;">이 전부터 디스코에 반감을 갖고 있던 그는 MLB 메이저리그 팀인 시카고 화이트삭스와 함께<br>
                     “디스코 앨범을 가져오면 야구 티켓 할인해주는”이벤트를 열었고,<br>
-                    수많은 사람들이 디스코 음반을 부수기 위해 경기장으로 몰려들었습니다.</p>
+                    수많은 사람들이 디스코 음반을 부수기 위해 경기장으로 몰려들었어요</p>
                     <p>이 사건이 바로 유명한 “디스코 폭파의 밤(Disco Sucks)” 운동의 시작이에요</p>
-					
 					<img src="disco sucks.png" class="disco-image"
 					style="
 					width: 650px; 
 					height: auto;
-					float: right; 
+				
             		margin: 120px 30px 120px 20px;">
-
-					<p style="clear:right;">
+                    </div>
+					<p style="clear:right;
+    transform: translateY(-100px);
+    margin-left: 60px;
+">
 					이 사건을 계기로 1980년대 디스코 음악이 라디오에서 듣기 힘들어질 즈음에<br>
 					시카고의 대형 게이클럽인 웨어하우스에서  
 					디제잉을 하던<strong style="color:#FF1E53"> 프랭키 너클즈</strong>가 디스코를 에디팅한 곡들에서 유래되었어요!
@@ -467,13 +519,15 @@ ul li a{text-decoration: none;
 				<h1 style="
                 display:inline-block;
                 color: #00FF37; 
-				font-weight: 800;
+				font-weight: 700;
 				font-size: 110px;
-				background-color: #050505;margin-right: 50px;
+				background-color: #050505;
+                margin-right: 50px;
+                padding: 3px 40px;
                 ">
 				DJ 프랭키 너클스</h1>
 				<h2 style="margin-right:50px;
-                font-size: 80px;
+                font-size: 85px;
                 line-height: 0.8;">
                     Frankie Knuckles<br>
 				1955 ~ 2014</h2>
@@ -486,7 +540,7 @@ ul li a{text-decoration: none;
 					1980년대 초 시카고에서 시작되어<br> 
 					전 세계로 퍼진 음악 장르인<br> 하우스 음악의
 					발전과 대중화에 중요한 역할을 하여<br>
-					<strong>"하우스 음악의 대부"</strong>라고 불린다.<br>
+					<strong style="color:#FF1E53">"하우스 음악의 대부"</strong>라고 불린다.<br>
 				</p>
 
 			<p style="text-align:right; margin:50px 50px 0px 0px;
@@ -509,9 +563,9 @@ ul li a{text-decoration: none;
 	<div class="left">
 				<h1 class="Chapter" style="white-space:nowrap;"><span class="chapter-color">Chapter 2.</span>하우스의 유래</h1>
 					<p>
-						한 설에 의하면 프랭키 너클즈가<br>'웨어하우스'에서 디제잉을 할 때<br>
+						한 설에 의하면 프랭키 너클즈가<br><strong style="color:#FF1E53">'웨어하우스'</strong>에서 디제잉을 할 때<br>
 						사람들이 인근 음반샵에서<br>
-						<strong>'웨어하우스에서 틀던 음악'</strong>을 찾기 시작했고,<br>
+						<strong style="color:#FF1E53">'웨어하우스에서 틀던 음악'</strong>을 찾기 시작했고,<br>
 						음반샵에서 이런 류의 음악을 따로 분류해서<br> 
 						팔던 것을 줄여서 <strong>'하우스'</strong>라는<br>
 						이름의 유래가 되었다고 해요<br>
@@ -797,7 +851,7 @@ height: 1300px;
             <a href="https://music.apple.com/kr/playlist/%ED%95%98%EC%9A%B0%EC%8A%A4-%EC%BC%80%EC%9D%B4%ED%8C%9D-%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8/pl.u-kv9lbK5t721DjL5" target="_blank" class="home-icon-link">
                 <img src="houseicon.png" class="footer-home-icon">
             </a>
-            <p style="font-family:'agahnsangsoo2012',sans-serif;">&copy; 디미디 하우스 장르 알아보기 All rights reserved LEE DAEUN<br>
+            <p style="font-family:'agahnsangsoo2012',sans-serif;font-size: 20px;">&copy; 디미디 하우스 장르 알아보기 All rights reserved LEE DAEUN<br>
             Contact:daeun05720@seoultech.ac.kr</p>
         </div>
     </div>
