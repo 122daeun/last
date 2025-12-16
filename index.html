@@ -10,15 +10,15 @@
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
 </script>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo.css" type="text/css"/>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo.css" type="text/css"/>
 
-		<title>하우스 장르 알아보기!</title>
+    <title>하우스 장르 알아보기!</title>
 
-		<style>
-		
+    <style>
+    
 
 * {padding: 0;box-sizing: border-box;}
 
@@ -62,59 +62,59 @@
 
 body, h1, h2, h3, h4, h5, h6, p { 
     font-family: 'Donggle', sans-serif;}
-	
-	.page-wrap {
- 			width: 100%;
- 			}
-  	.page-wrap.box1 {
+  
+  .page-wrap {
+      width: 100%;
+      }
+    .page-wrap.box1 {
     margin: 0 auto 40px;
 }     
-			
-	.page-wrap.box2 {
-  			background-image: url("note.jpg");
-  			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: center;
-			margin: 20px auto 40px;
+      
+  .page-wrap.box2 {
+        background-image: url("note.jpg");
+        background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 20px auto 40px;
 }
-	.page-wrap.box3 {
-			background-repeat: no-repeat;
-			background-position: center -50px; 
-			margin: 20px auto 40px;
+  .page-wrap.box3 {
+      background-repeat: no-repeat;
+      background-position: center -50px; 
+      margin: 20px auto 40px;
 }
     #box1 p, #box2 p, #box3 p, #box4 p ,#box5 p,#box6 p{line-height: 1.15;
         font-size: 40px;
 }
-		.box2{
-    	clear: both; 
-    	display: flex;
-    	align-items:center;
-    	margin-top: 820px; 
-		 }
+    .box2{
+      clear: both; 
+      display: flex;
+      align-items:center;
+      margin-top: 820px; 
+     }
 
-		.box2 .left{
-			  width: 40%; 
-			  padding-right: 20px;}
-		.box2 .right {
- 			   width: 60%;
- 			   margin:-50px 30px 0 0;
-				}
-		.box3 .left{
-			  flex-basis: 40%; 
-    		  padding-right: 20px;
-    		  margin-left:40px;}
-		.box3 .right {
- 		flex-basis: 60%; 
-    	flex-shrink: 0;
-    	margin: 0;
+    .box2 .left{
+        width: 40%; 
+        padding-right: 20px;}
+    .box2 .right {
+         width: 60%;
+         margin:-50px 30px 0 0;
+        }
+    .box3 .left{
+        flex-basis: 40%; 
+          padding-right: 20px;
+          margin-left:40px;}
+    .box3 .right {
+    flex-basis: 60%; 
+      flex-shrink: 0;
+      margin: 0;
  }
         #box1{padding:100px 0px 0px 30px;}
 
-		.Chapter {
- 		 text-align: left;
- 		 font-size:130px;
- 		 font-weight: 700;
- 		 color: #2B2A2A;}
+    .Chapter {
+     text-align: left;
+     font-size:130px;
+     font-weight: 700;
+     color: #2B2A2A;}
 
         .kpop p{
             font-size:20px;}
@@ -123,7 +123,7 @@ body, h1, h2, h3, h4, h5, h6, p {
         #box1 Chapter{margin: 1000px 0px 0px 30px;}
 
 
-	   #box1 h2{
+     #box1 h2{
          text-align: left;
          font-size:45px;
          font-weight: 700;
@@ -131,8 +131,8 @@ body, h1, h2, h3, h4, h5, h6, p {
          margin: 30px 0 30px;}
 
      #box3 h1 {
-	 		 text-align: left;
-	 		 font-weight: 800;}
+       text-align: left;
+       font-weight: 800;}
 
 .bubble-wrapper{
   position: relative;   
@@ -185,13 +185,13 @@ position: relative;
   color: #fffff;}
 
 #box2 h1
-	{text-align: right;
- 	font-size:60px;
+  {text-align: right;
+  font-size:60px;
   margin-bottom: 0px;   
 }
  #box2 h2
-	{text-align: right;
- 	font-size:50px;
+  {text-align: right;
+  font-size:50px;
     margin-top:50px;
     }
 .kpop {
@@ -297,7 +297,8 @@ ul li a{text-decoration: none;
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(6px);
   z-index: 1000;
   padding: 0px 20px;
   display: flex;
@@ -359,11 +360,12 @@ ul li a{text-decoration: none;
   }
   100% {
     transform: rotate(0deg) translateY(0);
-  }
-}	</style>
-	</head>
+  }  
+}
+</style>
+  </head>
 
-	<body style="font-family:'agahnsangsoo2012', sans-serif;">
+  <body style="font-family:'agahnsangsoo2012', sans-serif;">
             <header class="header">
 
                 <div class="logo">
@@ -384,50 +386,44 @@ ul li a{text-decoration: none;
         <section class="content-start">
             <div class="page-wrap" id="표지">
 
-		 <div class="background"
+     <div class="background"
              style="
-                width:100%;
-                height:2500px;
+                width:100vw;;
+                height:1300px;
                 background-image:url('cover.png');
                 background-size:cover;
                 background-position:center;
                 background-repeat:no-repeat;
                 position:relative;
              ">
-            	
-				<h1 class="bubble_text">
-    				<span class="highlight" 
-                    style="font-family:'agahnsangsoo2012'; sans-serif;
-                    font-size: 250px; 
-                    font-weight: 700;
-                    line-height: 0.8;">하우스(HOUSE)!<br>집도 아니고 뭔데?</h1>
-    			<h2 class="mt">-하우스 장르 알아보기-</h2>
-    		</div>
+              
+        <h1 class="bubble_text">
+           
         </div>
-    	</section>
+      </section>
 
 <section>
-		<div class="page-wrap"id="box1" style="margin:50px 0px 0px 0px;">
+    <div class="page-wrap"id="box1" style="margin:50px 0px 0px 0px;">
             <h1 class="Chapter"><span class="chapter-color">Chapter 1.</span>디스코가 낳은 하우스</h1>
-				<h2 class="t1" style="
+        <h2 class="t1" style="
                     font-size: 85px;
                     background-color: #48B3FF;
                     display:inline-block;
                     padding:5px 10px 10px;
                     line-height:1.1;">한번쯤은 다들 들어보셨을
-					<span class="highlight"> 하우스!</span>
-    				<img src="houseicon.png" class="inline-icon"
-    				style="width:55px;height:auto;
+          <span class="highlight"> 하우스!</span>
+            <img src="houseicon.png" class="inline-icon"
+            style="width:55px;height:auto;
                     vertical-align: -15px;">
-    			</h2>
-    				<p style="width:800px; 
+          </h2>
+            <p style="width:800px; 
                            height:auto;
-                           margin: 10px 0px 200px 10px;">
-					하우스는 바로 음악 장르를 말하는데요<br>
-					이 하우스라는 장르에 대해 얘기를 하려면 <strong style="color:#FF1E53">디스코</strong>에 대해 먼저 이야기해야해요!<br>
-					</p>
-					<p>
-					<strong style="color:#FF1E53">디스코</strong>는 처음에 뉴욕의 언더그라운드 파티 공간,<br> 로프트(The Loft)에서 시작된 음악이었어요.<br>언더그라운드에서만 들리던 이 디스코는<br>
+                           margin: 10px 0px 50px 10px;">
+          하우스는 바로 음악 장르를 말하는데요<br>
+          이 하우스라는 장르에 대해 얘기를 하려면 <strong style="color:#FF1E53">디스코</strong>에 대해 먼저 이야기해야해요!<br>
+          </p>
+          <p>
+          <strong style="color:#FF1E53">디스코</strong>는 처음에 뉴욕의 언더그라운드 파티 공간,<br> 로프트(The Loft)에서 시작된 음악이었어요.<br>언더그라운드에서만 들리던 이 디스코는<br>
                     영화 <토요일 밤의 열기>가 큰 인기를 얻으면서<br> 
                     대중들에게도 디스코가 퍼져나갔고 디스코는 전 세계적인 유행이 되었어요<br>
                     <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMndpZzR1Ym1vOXFwbDd5MzU1emM5cmYzd296dWxnN2ZvZjFqMWgwNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41Yh18f5TbiWHE0o/giphy.gif" 
@@ -486,102 +482,101 @@ ul li a{text-decoration: none;
                     “디스코 앨범을 가져오면 야구 티켓 할인해주는”이벤트를 열었고,<br>
                     수많은 사람들이 디스코 음반을 부수기 위해 경기장으로 몰려들었어요</p>
                     <p>이 사건이 바로 유명한 “디스코 폭파의 밤(Disco Sucks)” 운동의 시작이에요</p>
-					<img src="disco sucks.png" class="disco-image"
-					style="
-					width: 650px; 
-					height: auto;
-				
-            		margin: 120px 30px 120px 20px;">
+          <img src="disco sucks.png" class="disco-image"
+          style="
+          width: 650px; 
+          height: auto;
+                margin: 120px 30px 120px 20px;">
                     </div>
-					<p style="clear:right;
+          <p style="clear:right;
     transform: translateY(-100px);
     margin-left: 60px;
 ">
-					이 사건을 계기로 1980년대 디스코 음악이 라디오에서 듣기 힘들어질 즈음에<br>
-					시카고의 대형 게이클럽인 웨어하우스에서  
-					디제잉을 하던<strong style="color:#FF1E53"> 프랭키 너클즈</strong>가 디스코를 에디팅한 곡들에서 유래되었어요!
-					</p>
-			
-		</div>
-	</div>
+          이 사건을 계기로 1980년대 디스코 음악이 라디오에서 듣기 힘들어질 즈음에<br>
+          시카고의 대형 게이클럽인 웨어하우스에서  
+          디제잉을 하던<strong style="color:#FF1E53"> 프랭키 너클즈</strong>가 디스코를 에디팅한 곡들에서 유래되었어요!
+          </p>
+      
+    </div>
+  </div>
 </section>
 
 <section>
-	<div class="page-wrap box2" style="background-attachment: fixed"id="box2">
-		<div class="left">
-				<img src="frankie.png" class="photo1" style="
-					width: 800px; 
-					height: auto;
-					display: block;">
-			</div>
+  <div class="page-wrap box2" style="background-attachment: fixed"id="box2">
+    <div class="left">
+        <img src="frankie.png" class="photo1" style="
+          width: 800px; 
+          height: auto;
+          display: block;">
+      </div>
 
-			<div class="right"style="text-align:right;">
-				<h1 style="
+      <div class="right"style="text-align:right;">
+        <h1 style="
                 display:inline-block;
                 color: #00FF37; 
-				font-weight: 700;
-				font-size: 110px;
-				background-color: #050505;
+        font-weight: 700;
+        font-size: 110px;
+        background-color: #050505;
                 margin-right: 50px;
                 padding: 3px 40px;
                 ">
-				DJ 프랭키 너클스</h1>
-				<h2 style="margin-right:50px;
+        DJ 프랭키 너클스</h1>
+        <h2 style="margin-right:50px;
                 font-size: 85px;
                 line-height: 0.8;">
                     Frankie Knuckles<br>
-				1955 ~ 2014</h2>
+        1955 ~ 2014</h2>
 
-				<p style="text-align:
-				right; margin:90px 50px 0px 0px ;
-				color:#2A2A2A;
+        <p style="text-align:
+        right; margin:90px 50px 0px 0px ;
+        color:#2A2A2A;
                 font-size: 50px;line-height: 1.0;">
 
-					1980년대 초 시카고에서 시작되어<br> 
-					전 세계로 퍼진 음악 장르인<br> 하우스 음악의
-					발전과 대중화에 중요한 역할을 하여<br>
-					<strong style="color:#FF1E53">"하우스 음악의 대부"</strong>라고 불린다.<br>
-				</p>
+          1980년대 초 시카고에서 시작되어<br> 
+          전 세계로 퍼진 음악 장르인<br> 하우스 음악의
+          발전과 대중화에 중요한 역할을 하여<br>
+          <strong style="color:#FF1E53">"하우스 음악의 대부"</strong>라고 불린다.<br>
+        </p>
 
-			<p style="text-align:right; margin:50px 50px 0px 0px;
+      <p style="text-align:right; margin:50px 50px 0px 0px;
                 color:#2A2A2A;
                 font-size: 50px;line-height: 1.0;">
 
-			그는 소울, 펑크,재즈 등의 장르를<br>
-			혼합하여 음악을 창작하였고<br>
-			이는 후대 다양한 분류의<br>
-			음악들에 많은 영향을 주었다.<br>
-			</p>
+      그는 소울, 펑크,재즈 등의 장르를<br>
+      혼합하여 음악을 창작하였고<br>
+      이는 후대 다양한 분류의<br>
+      음악들에 많은 영향을 주었다.<br>
+      </p>
 
-			</div>
-	</div>
+      </div>
+  </div>
 </section>
 
 <section>
 <div class="page-wrap box3" style="display:flex; align-items:flex-end;"id="box3">
 
-	<div class="left">
-				<h1 class="Chapter" style="white-space:nowrap;"><span class="chapter-color">Chapter 2.</span>하우스의 유래</h1>
-					<p>
-						한 설에 의하면 프랭키 너클즈가<br><strong style="color:#FF1E53">'웨어하우스'</strong>에서 디제잉을 할 때<br>
-						사람들이 인근 음반샵에서<br>
-						<strong style="color:#FF1E53">'웨어하우스에서 틀던 음악'</strong>을 찾기 시작했고,<br>
-						음반샵에서 이런 류의 음악을 따로 분류해서<br> 
-						팔던 것을 줄여서 <strong>'하우스'</strong>라는<br>
-						이름의 유래가 되었다고 해요<br>
-					<p/>
-					
-	</div>
-	<div class="right" style="flex:0 0 auto; display:flex; justify-content:flex-end;">
-		<img src="ware.png" class="photo1" 
-				style="
-					max-width:70%; 
-					height:auto; 
-					display:block; 
-					margin:0;">
+  <div class="left">
+        <h1 class="Chapter" style="white-space:nowrap;"><span class="chapter-color">Chapter 2.</span>하우스의 유래</h1>
+          <p>
+            한 설에 의하면 프랭키 너클즈가<br><strong style="color:#FF1E53">'웨어하우스'</strong>에서 디제잉을 할 때<br>
+            사람들이 인근 음반샵에서<br>
+            <strong style="color:#FF1E53">'웨어하우스에서 틀던 음악'</strong>을 찾기 시작했고,<br>
+            음반샵에서 이런 류의 음악을 따로 분류해서<br> 
+            팔던 것을 줄여서 <strong>'하우스'</strong>라는<br>
+            이름의 유래가 되었다고 해요<br>
+          <p/>
+          
+  </div>
+  <div class="right" style="flex:0 0 auto; display:flex; justify-content:flex-end;">
+    <img src="ware.png" class="photo1" 
+        style="
+          max-width:0%; 
+          height:auto; 
+          display:block; 
+          margin:0;">
     </div>
-		
-	</div>
+    
+  </div>
 </div>
 </section>
 
@@ -593,7 +588,7 @@ background-position: center;
 background-repeat: no-repeat;
 height: 1300px;
  background-attachment: fixed;">
-			<h1 style="
+      <h1 style="
             width: fit-content;
                 font-size: 95px;
                 text-align: center;
@@ -605,10 +600,10 @@ height: 1300px;
                 margin-bottom: 100px;
                 transform: translate(0px, 50px)">
                 그렇다면 프랭키 너클스의 하우스 어땠을까요?</h1>
-					<div class="record-center">
-						<div class="record">
-  						<img src="record1.png" class="disk">
-  						<audio src="frankiemusic.mp3" controls class="audio"></audio>
+          <div class="record-center">
+            <div class="record">
+              <img src="record1.png" class="disk">
+              <audio src="frankiemusic.mp3" controls class="audio"></audio>
                         </div>
                     </div> 
                     <p style="text-align:center;
@@ -624,18 +619,18 @@ height: 1300px;
     <div class="풍선">
         <div class="page-wrap">
             <div><h1 class="Chapter"><span class="chapter-color">Chapter 3.</span>하우스 음악의 특징</h1></div>
-    		<div class="left">
-    				<div class="bubble-wrapper">
-    				<img src="houseb.png" class="bubble_image house1">
-    				<h1 class="bubble_text">그럼 하우스의 특징은 무엇일까요?</h1>	
-    			     </div>
-    		</div>
-    		<div class="right">
-    			<div class="bubble-wrapper">
-    				<img src="houseb2.png" class="bubble_image house2">
-    				<h2 class="bubble_text">바로 4/4박자!</h2>
-    			</div>
-    		</div>
+        <div class="left">
+            <div class="bubble-wrapper">
+            <img src="houseb.png" class="bubble_image house1">
+            <h1 class="bubble_text">그럼 하우스의 특징은 무엇일까요?</h1> 
+               </div>
+        </div>
+        <div class="right">
+          <div class="bubble-wrapper">
+            <img src="houseb2.png" class="bubble_image house2">
+            <h2 class="bubble_text">바로 4/4박자!</h2>
+          </div>
+        </div>
     </div>
     <p style="text-align:center ;margin-bottom: 20px">
                         <p>
@@ -659,11 +654,11 @@ height: 1300px;
     background-repeat: no-repeat;
     background-size: auto; 
     height: 7200px; 
-">	
+">  
 
        <div style="text-align:center;">
             <h1 class="Chapter"><span class="chapter-color">Chapter 4.</span>하우스 케이팝</h1>
-            <span class="page-wrap box6" id="electro">
+            <span class="page-wrap" id="electro">
                 <h2 style=" 
                 width: fit-content;
                 display:inline-block;
@@ -678,12 +673,31 @@ height: 1300px;
                     케이팝에도 사용되고 있는데요<br>한번 들어보실까요?
                 </h2>
         </span>
-    <div style="margin: 750px 0px 0px 55px;"> 
-        <div class="kpop-wrapper kpop-left-wrap">   
-        <div class="kpop" id="box6"style= "transform: translate(9px, -37px)">
-                <h1 style="background-color: black; color: white;" class="song1">일렉트로 하우스<br>(Electro House)</h1>
-                <video id="blackpink" width="700px" height="auto" src="bp.mp4"></video>
+    </div> 
 
+        <div class="kpop-wrapper kpop-left-wrap">   
+        <div class="kpop"id="box6" style="
+        width:810px;
+  background-image: url('house1.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;background-image">
+<div class="content1" style="transform: translate(55px, 219px)">
+                <h1 style="background-color: black; color: white;" class="song1">일렉트로 하우스<br>(Electro House)</h1>
+                <video td="blackpink" width="700px" height="auto" src="bp.mp4"></video>
+                    <p>
+                        일렉트로 하우스는 말 그대로 
+                        ‘전자맛’이 강한 하우스예요<br>
+                        베이스가 두껍고, 신디사이저 소리가 
+                        아주 강하게 치고 들어와요<br>
+                        비트가 빠르고, 드롭(beat drop) 부분에서<br>에너지가 폭발하는 게 특징이에요!
+                        </p>
+                        <p>
+                            대표적인 케이팝으로는 블랙핑크의 붐바야가 있어요!
+                        </p>
+                    </div>
+                  </div>
+                </div>
 <script>
   {const video = document.getElementById("blackpink");
   const START = 83;        
@@ -700,25 +714,32 @@ height: 1300px;
     }
   });}
 </script>
-                        <p>
-                        일렉트로 하우스는 말 그대로 
-                        ‘전자맛’이 강한 하우스예요<br>
-                        베이스가 두껍고, 신디사이저 소리가 
-                        아주 강하게 치고 들어와요<br>
-                        비트가 빠르고, 드롭(beat drop) 부분에서<br>에너지가 폭발하는 게 특징이에요!
-                        </p>
-                        <p>
-                            대표적인 케이팝으로는 블랙핑크의 붐바야가 있어요!
-                        </p>
-                </div> 
-        </div>
-    </div>
+                       
         
-    <div class="kpop-wrapper kpop-right-wrap ">
-        <div class="kpop"id="techno" style="transform: translate(17px, -15px);"> 
+    <div class="kpop-wrapper kpop-right-wrap" style="transform:rotate(3deg) ;">
+          <div class="kpop"id="box7" style="
+        width:700px;
+  background-image: url('home2.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;background-image">
+<div class="content2" style="transform: translate(0px, 260px)">
                 <h1 class="song2">️테크 하우스 <br>(Tech House)</h1>
          <video id="aespa" width="700px" height="auto"src="ae.mp4"></video>
-        <script>{
+                <p>테크 하우스는  테크노(Techno)와 
+                            하우스(House)의 중간을 말해요
+                        <br>하우스처럼 4/4 리듬을 유지하면서도, 
+                            테크노처럼 미니멀하고 반복적인 사운드를 써요<br>복잡한 멜로디보다 ‘리듬감’과 ‘그루브’에 집중한 스타일이며<br> 듣다 보면 비슷한 패턴이 계속되는데<br>
+                            이상하게 중독되는 느낌이에요
+                        </p>
+                        <p>
+                            대표적인 케이팝으로는 에스파의 Whiplash가 있어요!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+    <script>{
   const videoAespa = document.getElementById("aespa");
   const START_Aespa = 37;        
   const END_Aespa = START_Aespa + 10;  
@@ -731,26 +752,30 @@ height: 1300px;
       videoAespa.pause();
       videoAespa.currentTime = START_Aespa;
     }
-  });
-}
+  });}
 </script>
-                        <p>테크 하우스는  테크노(Techno)와 
-                            하우스(House)의 중간을 말해요
-                        <br>하우스처럼 4/4 리듬을 유지하면서도, 
-                            테크노처럼 미니멀하고 반복적인 사운드를 써요<br>복잡한 멜로디보다 ‘리듬감’과 ‘그루브’에 집중한 스타일이며<br> 듣다 보면 비슷한 패턴이 계속되는데<br>
-                            이상하게 중독되는 느낌이에요
-                        </p>
-                        <p>
-                            대표적인 케이팝으로는 에스파의 Whiplash가 있어요!
-                        </p>
-                    </div>
-                </div>
-
+            
     <div class="kpop-wrapper kpop-left-wrap ">
-        <div class="kpop" id="deep" style= "transform: translate(61px, -96.5px)">
+        <div class="kpop" id="deep" style="
+        width:810px;
+  background-image: url('home3.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;background-image">
+<div class="content3" style="transform: translate(0px, 195px)">
                 <h1 class="song3">️️딥 하우스<br>(Deep House)</h1>
                 <video id="view" width="700px" height="auto" src="view.mp4"></video>
-        <script>{
+        
+                    <p>딥하우스는 하우스 중에서도 제일 부드럽고
+ 감성적인 스타일이에요.<br>재즈, 소울, 알앤비에서 영향을 많이 받아서, 
+멜로디가 따뜻하고 리드미컬해요!<br>리듬은 여전히 4/4지만, 전체적으로 차분하고 분위기 있어요
+                    </p>
+                    <p>
+                    대표적인 케이팝에는 샤이니의 View와 f(x)의 4walls가 있어요!</p>
+        </div>
+      </div>
+    </div>
+<script>{
   const videoview = document.getElementById("view");
   const START_view = 37;        
   const END_view = START_view + 10;  
@@ -766,20 +791,30 @@ height: 1300px;
   });
 }
 </script>
-                    <p>딥하우스는 하우스 중에서도 제일 부드럽고
- 감성적인 스타일이에요.<br>재즈, 소울, 알앤비에서 영향을 많이 받아서, 
-멜로디가 따뜻하고 리드미컬해요!<br>리듬은 여전히 4/4지만, 전체적으로 차분하고 분위기 있어요
-                    </p>
-                    <p>
-                    대표적인 케이팝에는 샤이니의 View와 f(x)의 4walls가 있어요!</p>
-        </div>
-    </div>
-
     <div class="kpop-wrapper kpop-right-wrap">
-        <div class="kpop" id="plug" style= "transform: translate(58px, -177px)">
+        <div class="kpop" id="plug" style="
+        width:700px;
+  background-image: url('home4.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;background-image">
+<div class="content2" style="transform: translate(0px, 216px)">
                 <h1 class="song4">️️플러그앤비 하우스<br>(Pluggnb House)</h1>
             <video id="illit" width="700px" height="auto" src="illit.mp4"></video>
-        <script>{
+        
+                    <p>플러그앤비 하우스는 힙합의 하위 장르인 플러그(Plug)와<br>
+                        R&B를 결합한 '플러그앤비'에 하우스 장르의 
+                        드럼 비트와 베이스가 더해져,<br>
+                        Y2K 레트로 감성과 댄서블한 리듬을 동시에 지닌 <br>
+                        독특한 음악 스타일을 형성해요
+                    </p>
+                    <p>
+                        대표적인 케이팝에는 아일릿의 Magnetic이 있어요!
+                    </p>
+        </div>
+    </div>
+  </div>
+<script>{
   const videoillit= document.getElementById("illit");
   const START_illit = 8;        
   const END_illit = START_illit+ 12;  
@@ -795,23 +830,31 @@ height: 1300px;
   });
 }
 </script>
-                    <p>플러그앤비 하우스는 힙합의 하위 장르인 플러그(Plug)와<br>
-                        R&B를 결합한 '플러그앤비'에 하우스 장르의 
-                        드럼 비트와 베이스가 더해져,<br>
-                        Y2K 레트로 감성과 댄서블한 리듬을 동시에 지닌 <br>
-                        독특한 음악 스타일을 형성해요
+    <div class="kpop-wrapper kpop-left-wrap">
+        <div class="kpop"id="Progressive"style="
+        width:810px;
+  background-image: url('home5.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;background-image"> 
+  <div class="content5" style="transform: translate(0px, 262px)">
+         
+                <h1 class="song5">️️프로그레시브 하우스<br>(Progressive House)</h1>
+                <video id="dream" width="700px" height="auto" src="dream.mp4"></video>       
+                    <p>프로그레시브 하우스는 1990년대 초 영국에서 
+                        시작된 하우스 음악의 한 종류로,<br>
+                        점진적으로 변화하는 구조와<br>
+                        감정적인 멜로디가 특징적이에요<br>
+                        곡이 진행될수록 사운드가 천천히 쌓이고 변하며,<br>
+                         마치 하나의 “여정”처럼 느껴지게 만들죠!
                     </p>
                     <p>
-                        대표적인 케이팝에는 아일릿의 Magnetic이 있어요!
+                        대표적인 케이팝으로는 nct dream의 Trigger the Fever나<br>프로듀스101의 나야나 등이 있어요!
                     </p>
-        </div>
-    </div>
-
-    <div class="kpop-wrapper kpop-left-wrap">
-        <div class="kpop"id="Progressive"style= "transform: translate(61.5px, -191px)">
-                <h1 class="song5">️️프로그레시브 하우스<br>(Progressive House)</h1>
-                <video id="dream" width="700px" height="auto" src="dream.mp4"></video>
-        <script>{
+                  </div> 
+                </div>
+              </div> 
+<script>{
   const videodream= document.getElementById("dream");
   const START_dream = 40;        
   const END_dream = START_dream+ 12;  
@@ -827,27 +870,15 @@ height: 1300px;
   });
 }
 </script>
-                
-                    <p>프로그레시브 하우스는 1990년대 초 영국에서 
-                        시작된 하우스 음악의 한 종류로,<br>
-                        점진적으로 변화하는 구조와<br>
-                        감정적인 멜로디가 특징적이에요<br>
-                        곡이 진행될수록 사운드가 천천히 쌓이고 변하며,<br>
-                         마치 하나의 “여정”처럼 느껴지게 만들죠!
-                    </p>
-                    <p>
-                        대표적인 케이팝으로는 nct dream의 Trigger the Fever나<br>프로듀스101의 나야나 등이 있어요!
-                    </p>
-		</div> 
-    </div>
-</div>
+         
+
 </section>
-		<div class="kpop">
-			<h1>다양한 장르로 변화하며 발전하고 있는 하우스 음악 어떠셨나요?</h1>
-			<h2>여러분이 평소 즐겨 듣는 노래 속에서도 하우스의 매력을 찾아보세요!</h2>
-		</div>
-		<div class="footer">
-        	<div class="footer-content">
+    <div class="kpop">
+      <h1>다양한 장르로 변화하며 발전하고 있는 하우스 음악 어떠셨나요?</h1>
+      <h2>여러분이 평소 즐겨 듣는 노래 속에서도 하우스의 매력을 찾아보세요!</h2>
+    </div>
+    <div class="footer">
+          <div class="footer-content">
             <a href="https://music.apple.com/kr/playlist/%ED%95%98%EC%9A%B0%EC%8A%A4-%EC%BC%80%EC%9D%B4%ED%8C%9D-%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8/pl.u-kv9lbK5t721DjL5" target="_blank" class="home-icon-link">
                 <img src="houseicon.png" class="footer-home-icon">
             </a>
@@ -856,5 +887,5 @@ height: 1300px;
         </div>
     </div>
    
-	</body> 
+  </body> 
 </html>
